@@ -1,0 +1,117 @@
+.calculator {
+    width: calc(100% - 50px*2);
+    height: min-content;
+    position: relative; /* Додаємо, щоб обмежити псевдоелемент */
+    padding: 50px;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 25px;
+}
+
+.calculator::before {
+    content: "";
+    position: absolute; /* Фон буде тільки в межах .calculator */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/static/img/index/waterfall_calculator.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(0.25);
+    border-radius: 15px; /* Щоб фон повторював форму .calculator */
+    z-index: -1; /* Розміщуємо під основним контентом */
+}
+
+.calculator-input{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.calculator-group{
+    height: 100%;
+    width: calc(100%/3);
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.calculator-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.calc-panel{
+    display: flex;
+    align-items: center;
+
+    & *{
+        &::selection{
+            color: white;
+            background-color: black;
+        }
+    }
+}
+
+.calculator .btn{
+    width: 20px;
+    height: 20px;
+
+
+    filter: brightness(1);
+
+    transition: .5s ease;
+
+    cursor: pointer;
+    border: none;
+}
+.calculator .btn:active{
+    filter: brightness(.5);
+}
+
+.calculator .text-panel{
+    width: 50px;
+    height: 20px;
+
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+
+
+.calculator-print{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.caclc-photo-author{
+    color: white;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}

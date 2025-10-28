@@ -1,0 +1,68 @@
+.side-bar{
+    background-color: black;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    & *{
+        &::selection{
+            color: black;
+            background-color: white;
+        }
+    }
+
+}
+
+.left-menu{
+    margin-left: 150px;
+
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.contact-information{
+    text-decoration: none;
+    color: #ffffff;
+    transition: all .25s ease;
+}
+
+.contact-information:hover{
+    color: #999;
+    transition: .25s ease;
+}
+
+.owner-name{
+    font-weight: 800;
+}
+
+/* .projects{
+    display: block;
+    width: auto;
+} */
+
+.other{
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.map{
+    border-radius: 15px;
+
+    width: 400px;
+    height: 200px;
+
+    margin-right: 150px;
+
+    transition: all .5s ease;
+    transform: scale(1);
+}
+.map:hover{
+    transition: all .5s ease;
+    transform: scale(1.22);
+}
