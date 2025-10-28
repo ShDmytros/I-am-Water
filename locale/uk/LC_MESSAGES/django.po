@@ -1,0 +1,471 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-12 22:42+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: .\templates\include\footer.html:7
+msgid "Phone number: "
+msgstr "Номер телефону: "
+
+#: .\templates\include\footer.html:8
+msgid "Email adress: "
+msgstr "Електрона адреса: "
+
+#: .\templates\include\footer.html:10
+msgid "Maded by "
+msgstr "Виконав "
+
+#: .\templates\include\footer.html:10
+msgid "©Dmytro Shtuchka"
+msgstr "©Дмитро Штучка"
+
+#: .\templates\include\footer.html:13
+msgid "Wikipedia bot in Telegram: find information about Water Resources"
+msgstr "Вікіпедія бот в телеграмі: знайти інформацію про воду"
+
+#: .\templates\include\header.html:16
+msgid "Main"
+msgstr "Головна"
+
+#: .\templates\include\header.html:18
+#: .\templates\water_site\slides_styles.html:12
+msgid "Famous water places"
+msgstr "Відомі водні місця"
+
+#: .\templates\include\header.html:19
+msgid "FWP"
+msgstr "ВВМ"
+
+#: .\templates\include\header.html:21
+msgid "News"
+msgstr "Новини"
+
+#: .\templates\include\header.html:23
+msgid "Shop"
+msgstr "Магазин"
+
+#: .\templates\water_site\index.html:19
+msgid ""
+"Welcome to my Website! Here you can find some information about water, as "
+"one the most valuable wealth of man."
+msgstr ""
+"Вітаю на моєму вебсайті! Тут ви можете знайти деяку інформацію про воду, як "
+"одне з найцінніших багатств людства."
+
+#: .\templates\water_site\index.html:21
+msgid "Autor of photo is"
+msgstr "Автор фото"
+
+#: .\templates\water_site\index.html:30
+msgid "The News:"
+msgstr "Останні новини:"
+
+#: .\templates\water_site\index.html:41
+msgid "Read the article..."
+msgstr "Читати статтю..."
+
+#: .\templates\water_site\index.html:62
+msgid "Calculator of using water"
+msgstr "Калькулятор використання води"
+
+#: .\templates\water_site\index.html:67
+msgid "How many people:"
+msgstr "Скільки людей:"
+
+#: .\templates\water_site\index.html:75
+msgid "How often a pearson have a shower per day:"
+msgstr "Як часто одна людина приймає душ на день:"
+
+#: .\templates\water_site\index.html:83
+msgid "How much time a pearson having a shower (in minuts):"
+msgstr "Скільки часу одна людина приймає душ (в хвилинах):"
+
+#: .\templates\water_site\index.html:93
+msgid "How often a pearson have a bath per week:"
+msgstr "Як часто одна людина приймає вану на тиждень:"
+
+#: .\templates\water_site\index.html:101
+msgid "How often a pearson use a flusher per day:"
+msgstr "Як часто одна людина ходить в туалет на день:"
+
+#: .\templates\water_site\index.html:111
+msgid "How often in your family, you do a laundry per week:"
+msgstr "Як часто ви використовуєте пральну машину на тиждень:"
+
+#: .\templates\water_site\index.html:119
+msgid "How often in your family, you do washing up per week:"
+msgstr "Як часто ви миєте посуд на тиждень:"
+
+#: .\templates\water_site\index.html:129
+msgid "Result is: "
+msgstr "Результат: "
+
+#: .\templates\water_site\index.html:129
+msgid " liters of water per week."
+msgstr " літрів води на тиждень."
+
+#: .\templates\water_site\index.html:132
+msgid "Image is given from"
+msgstr "Зображення взяте з"
+
+#: .\templates\water_site\index.html:139
+msgid "Information about Water Resources:"
+msgstr "Інформація про водні ресурси:"
+
+#: .\templates\water_site\index.html:143
+msgid "One of the most important world problem is Water Scarcity!"
+msgstr "Однією з найважливіших світових проблем є нестача вода!"
+
+#: .\templates\water_site\index.html:144
+msgid ""
+"The shortage of water resources affects every continent and around 2.8 "
+"billion people around the world at least one month out of every year. More "
+"than 1.2 billion people lack access to clean drinking water. Water stress is "
+"a vital issue that needs immediate attention."
+msgstr ""
+"Дефіцит води відчувають на всіх континентах і близько 2,8 мільярда людей у "
+"всьому світі щонайменше один місяць на рік. Понад 1,2 мільярда людей не "
+"мають доступу до чистої питної води. Дефіцит води включає в себе водний "
+"стрес, нестачу або дефіцит води та водну кризу. Це життєво важлива проблема, "
+"яка потребує негайної уваги."
+
+#: .\templates\water_site\index.html:145
+msgid "GIF from "
+msgstr "GIF взята з "
+
+#: .\templates\water_site\index.html:146
+msgid "Text from "
+msgstr "Текст взятий з "
+
+#: .\templates\water_site\index.html:155
+msgid "How to preserve Water:"
+msgstr "Як зберегти Воду:"
+
+#: .\templates\water_site\index.html:157
+msgid ""
+"Water conservation is crucial because it helps prevent water scarcity, "
+"ensures availability for future generations, reduces the need for water "
+"treatment, and helps protect the environment. It also saves energy, "
+"maintains water supply during dry periods, and can even save money on "
+"utility bills."
+msgstr ""
+"Водозбереження має вирішальне значення, оскільки допомагає запобігти "
+"дефіциту води, забезпечує її доступність для майбутніх поколінь, зменшує "
+"потребу в очищенні води та допомагає захистити навколишнє середовище. Це "
+"також економить енергію, підтримує водопостачання в посушливі періоди і "
+"навіть може заощадити гроші комунальні послуги."
+
+#: .\templates\water_site\index.html:159
+msgid ""
+"Turn off the faucet while brushing or shaving: This can save roughly 200 "
+"gallons of water a month."
+msgstr ""
+"Закривайте кран, коли чистите зуби або голитеся: Це може заощадити приблизно "
+"200 галонів води на місяць."
+
+#: .\templates\water_site\index.html:160
+msgid ""
+"Take shorter showers: Showers use approximately 2 gallons of water per "
+"minute. A short shower uses significantly less water than a bath."
+msgstr ""
+"Приймайте коротший душ: Душ використовує приблизно 2 галони води на хвилину. "
+"Короткий душ використовує значно менше води, ніж ванна."
+
+#: .\templates\water_site\index.html:161
+msgid ""
+"Flush the toilet only when necessary: Avoid using the toilet as a waste "
+"basket. A single flush requires 1–8 gallons of water."
+msgstr ""
+"Спускайте воду в туалеті лише за необхідності: Не використовуйте унітаз як "
+"кошик для сміття. Для одного змиву потрібно 1-8 галонів води."
+
+#: .\templates\water_site\index.html:162
+msgid ""
+"Displace some of the water in your toilet tank: You can do this by filling a "
+"water bottle or airtight bag with pebbles and putting it in your toilet’s "
+"tank."
+msgstr ""
+"Витіснити частину води з бачка вашого туалету: Ви можете зробити це, "
+"наповнивши пляшку з водою або герметичний пакет камінчиками і поклавши їх у "
+"бачок туалету."
+
+#: .\templates\water_site\index.html:163
+msgid ""
+"Store water properly: If you’re storing water at home, label the container "
+"as “drinking water” and replace the water every six months."
+msgstr ""
+"Зберігайте воду належним чином: Якщо ви зберігаєте воду вдома, позначте "
+"ємність як “питна вода” і міняйте воду кожні шість місяців."
+
+#: .\templates\water_site\index.html:166
+msgid "GIF is given from "
+msgstr "GIF взята з"
+
+#: .\templates\water_site\index.html:167 .\templates\water_site\index.html:183
+msgid "Text is given from "
+msgstr "Текст взятий з"
+
+#: .\templates\water_site\index.html:176
+msgid "Sustainable Development Goals"
+msgstr "Цілі сталого розвитку"
+
+#: .\templates\water_site\index.html:177
+msgid "GOAL 6: CLEAN WATER AND SANITATION"
+msgstr "ЦІЛЬ 6: ЧИСТА ВОДА ТА САНІТАРІЯ"
+
+#: .\templates\water_site\index.html:179
+msgid ""
+"Goal 6 aims to ensure availability and sustainable management of water and "
+"sanitation for all. Water and sanitation are critical to the health of "
+"people and the planet. Goal 6 not only addresses the issues relating to "
+"drinking water, sanitation and hygiene (WASH), but also the quality and "
+"sustainability of water resources worldwide. Improvements in drinking water, "
+"sanitation and hygiene are essential for progress in other areas of "
+"development too, such as nutrition, education, health and gender equality."
+msgstr ""
+"Ціль 6 спрямована на забезпечення доступності та сталого управління водними "
+"ресурсами і санітарією для всіх. Вода та санітарія мають вирішальне значення "
+"для здоров'я людей і планети. Ціль 6 стосується не лише питань питної води, "
+"санітарії та гігієни (ВСГ), а й якості та сталості водних ресурсів у всьому "
+"світі. Покращення доступу до питної води, санітарії та гігієни має важливе "
+"значення для прогресу в інших сферах розвитку, таких як харчування, освіта, "
+"охорона здоров'я та гендерна рівність."
+
+#: .\templates\water_site\index.html:180
+msgid ""
+"Millions of people die every year from diseases associated with unsafe "
+"drinking water, sanitation and hygiene. Young children are particularly "
+"vulnerable – WASH-related diseases remain among the leading causes of death "
+"in children under 5, and they contribute to malnutrition and stunting. Each "
+"year, 300,000 children under 5 die due to diarrhoea linked to inadequate "
+"WASH. Despite significant progress, 2.2 billion people worldwide do not have "
+"safely managed drinking water services. Over half the global population, 4.2 "
+"billion people, lack safely managed sanitation services."
+msgstr ""
+"Мільйони людей щороку помирають від хвороб, пов'язаних з неякісною питною "
+"водою, санітарією та гігієною. Особливо вразливими є діти молодшого віку - "
+"хвороби, пов'язані із ВСГ, залишаються однією з основних причин смерті дітей "
+"віком до 5 років, вони призводять до недоїдання та затримки росту. Щороку "
+"300 000 дітей віком до 5 років помирають від діареї, пов'язаної з "
+"неналежними послугами ВСГ. Незважаючи на значний прогрес, 2,2 мільярда людей "
+"у світі не мають безпечного доступу до питної води. Більше половини "
+"населення планети - 4,2 мільярда людей - не мають безпечних санітарно-"
+"гігієнічних послуг."
+
+#: .\templates\water_site\index.html:181
+msgid ""
+"UNICEF’s contribution towards reaching this goal centres on bringing safe "
+"drinking water, sanitation and hygiene services to homes, schools and health "
+"centres so that children can grow and learn in a safe environment. UNICEF is "
+"co-custodian for global monitoring of three indicators that measure progress "
+"towards Goal 6: Indicator 6.1.1 Proportion of population using safely "
+"managed drinking water services; Indicator 6.2.1a Proportion of population "
+"using safely managed sanitation services; and Indicator 6.2.1b Proportion of "
+"population with a hand-washing facility with soap and water available at "
+"home."
+msgstr ""
+"Внесок ЮНІСЕФ у досягнення цієї мети зосереджений на забезпеченні безпечної "
+"питної води, санітарії та гігієни в будинках, школах і медичних центрах, щоб "
+"діти могли рости і вчитися в безпечному середовищі. ЮНІСЕФ є ЮНІСЕФ є "
+"співвідповідальним за глобальний моніторинг трьох показників, які вимірюють "
+"прогрес у досягненні Цілі 6: Показник 6.1.1 Частка населення, що "
+"користується безпечною питною водою; Показник 6.2.1a Частка населення, що "
+"користується безпечними санітарно-гігієнічними послугами; та Показник 6.2.1b "
+"Частка населення, що має вдома засоби для миття рук з милом і водою."
+
+#: .\templates\water_site\index.html:183
+msgid "Image from "
+msgstr "Зображення взяте з "
+
+#: .\templates\water_site\index.html:191
+msgid "Video: Problems related to Water resources"
+msgstr ""
+
+#: .\templates\water_site\news_detail.html:36
+msgid "Information given from"
+msgstr "Інформація взята з"
+
+#: .\templates\water_site\news_detail.html:38
+msgid "Information written by"
+msgstr "Автор статті "
+
+#: .\templates\water_site\product_menu.html:32
+msgid "Price: "
+msgstr "Ціна: "
+
+#: .\templates\water_site\product_menu.html:32
+#: .\templates\water_site\shop.html:38
+msgid "$ per one"
+msgstr "$ за одну"
+
+#: .\templates\water_site\product_menu.html:42
+msgid "You must to pay: "
+msgstr "Ви повинні заплатити: "
+
+#: .\templates\water_site\product_menu.html:49
+msgid "Product is abaible!"
+msgstr "Товар в наявності!"
+
+#: .\templates\water_site\product_menu.html:51
+#: .\templates\water_site\product_menu.html:56
+msgid "Buy"
+msgstr "Купити"
+
+#: .\templates\water_site\product_menu.html:54
+msgid "Product is not abaible at now, please return later!"
+msgstr "Товар не в наявності наразі, будь ласка, поверніться пізніше!"
+
+#: .\templates\water_site\product_menu.html:60
+msgid "Thank you for your purchase!"
+msgstr "Дякую за Вашу покупку!"
+
+#: .\templates\water_site\product_menu.html:63
+msgid "The message will be delete in "
+msgstr "Повідомлення буде видалено через "
+
+#: .\templates\water_site\product_menu.html:63
+msgid " seconds..."
+msgstr " секунд..."
+
+#: .\templates\water_site\shop.html:13
+msgid "Here you can buy something."
+msgstr "Тут Ви можете щось придбати."
+
+#: .\templates\water_site\shop.html:14
+msgid "All the money goes to charity!"
+msgstr "Всі грощі йдуть на благодійність!"
+
+#: .\templates\water_site\shop.html:19
+msgid "Given from Rigby Cook lawyers"
+msgstr "Фотографія з Rigby Cook lawyers"
+
+#: .\templates\water_site\shop.html:28
+msgid "Our shop:"
+msgstr "Наш магазин:"
+
+#: .\templates\water_site\slides_styles.html:18
+msgid "Niagara Falls"
+msgstr "Ніагарський водоспад"
+
+#: .\templates\water_site\slides_styles.html:19
+msgid ""
+"Niagara Falls (/naɪˈæɡərə/) is a group of three waterfalls at the southern "
+"end of Niagara Gorge, spanning the border between the province of Ontario in "
+"Canada and the state of New York in the United States. The largest of the "
+"three is Horseshoe Falls, which straddles the international border of the "
+"two countries. It is also known as the Canadian Falls. The smaller American "
+"Falls and Bridal Veil Falls lie within the United States. Bridal Veil Falls "
+"is separated from Horseshoe Falls by Goat Island and from American Falls by "
+"Luna Island, with both islands situated in New York."
+msgstr ""
+"Ніагарський водоспад (/naɪˈæɡərə/) - група з трьох водоспадів на південному "
+"кінці Ніагарської ущелини, що перетинає кордон між провінцією Онтаріо в "
+"Канаді та штатом Нью-Йорк у США. Найбільшим з трьох водоспадів є водоспад "
+"Підкова, який перетинає міжнародний кордон двох країн. Він також відомий як "
+"Канадський водоспад. Менші Американський водоспад і водоспад Фата нареченої "
+"знаходяться на території Сполучених Штатів. Водоспад Підкова відокремлений "
+"від водоспаду Козячий острів, а від Американського водоспаду - островом "
+"Луна, обидва острови розташовані в Нью-Йорку."
+
+#: .\templates\water_site\slides_styles.html:27
+msgid "Victoria Falls"
+msgstr "Водоспад Вікторія"
+
+#: .\templates\water_site\slides_styles.html:28
+msgid ""
+"Victoria Falls (Lozi: Mosi-oa-Tunya, 'Thundering Smoke'; Tonga: Shungu "
+"Namutitima, 'Boiling Water') is a waterfall on the Zambezi River in southern "
+"Africa, which provides habitat for several unique species of plants and "
+"animals. It is located on the border between Zambia and Zimbabwe and is one "
+"of the world's largest waterfalls, with a width of 1,708 m (5,604 ft)."
+msgstr ""
+"Водоспад Вікторія (Лозі: Mosi-oa-Tunya, 'Громовий дим'; тонга: Shungu "
+"Namutitima, 'Кипляча вода') - водоспад на річці Замбезі на півдні Африки, "
+"який забезпечує середовище існування для кількох унікальних видів рослин і "
+"тварин. Він розташований на кордоні між Замбією та Зімбабве і є одним з "
+"найбільших водоспадів у світі, його ширина становить 1 708 м (5 604 фути)."
+
+#: .\templates\water_site\slides_styles.html:36
+msgid "Amazon River"
+msgstr "Річка Амазонка"
+
+#: .\templates\water_site\slides_styles.html:37
+msgid ""
+"The Amazon River (UK: /ˈæməzən/, US: /ˈæməzɒn/; Spanish: Río Amazonas, "
+"Portuguese: Rio Amazonas) in South America is the largest river by discharge "
+"volume of water in the world, and the longest or second-longest river system "
+"in the world, a title which is disputed with the Nile."
+msgstr ""
+"Річка Амазонка (англ: /ˈæməzən/, США: /ˈæməzɒn/; ісп: Río Amazonas, порт: "
+"Rio Amazonas) у Південній Америці - найбільша річка за обсягом стоку води у "
+"світі, а також найдовша або друга за довжиною річкова система у світі, "
+"звання якої оскаржує Ніл."
+
+#: .\templates\water_site\slides_styles.html:45
+msgid "Nile"
+msgstr "Ніл"
+
+#: .\templates\water_site\slides_styles.html:46
+msgid ""
+"The Nile is a major north-flowing river in northeastern Africa. It flows "
+"into the Mediterranean Sea. The Nile is the longest river in Africa and has "
+"historically been considered the longest river in the world, though this has "
+"been contested by research suggesting that the Amazon River is slightly "
+"longer. Of the world's major rivers, the Nile is one of the smallest, as "
+"measured by annual flow in cubic metres of water. About 6,650 km (4,130 mi) "
+"long, its drainage basin covers eleven countries: the Democratic Republic of "
+"the Congo, Tanzania, Burundi, Rwanda, Uganda, Kenya, Ethiopia, Eritrea, "
+"South Sudan, Sudan, and Egypt. In particular, the Nile is the primary water "
+"source of Egypt, Sudan and South Sudan. Additionally, the Nile is an "
+"important economic river, supporting agriculture and fishing."
+msgstr ""
+"Ніл - велика північна річка на північному сході Африки. Впадає в Середземне "
+"море. Ніл - найдовша річка Африки і історично вважається найдовшою річкою "
+"світу, хоча це твердження оскаржується дослідженнями, які показують, що "
+"Амазонка трохи довша. Серед великих річок світу Ніл є однією з найменших, "
+"якщо вимірювати річний стік у кубічних метрах води. Його басейн довжиною "
+"близько 6 650 км (4 130 миль) охоплює одинадцять країн: Демократичну "
+"Республіку Конго, Танзанію, Бурунді, Руанду, Уганду, Кенію, Ефіопію, "
+"Еритрею, Південний Судан, Судан і Єгипет. Зокрема, Ніл є основним джерелом "
+"води для Єгипту, Судану та Південного Судану. Крім того, Ніл є важливою "
+"економічною річкою, підтримуючи сільське господарство і рибальство."
+
+#~ msgid "Video about Water:"
+#~ msgstr "Відео про Воду:"
+
+#~ msgid ""
+#~ "Welcome to my Web-Site! Here you can learn new information about Water!"
+#~ msgstr ""
+#~ "Ласкаво просимо на мій сайт! Тут ви можете дізнатися нову інформацію про "
+#~ "Воду!"
+
+#, fuzzy
+#~| msgid "Image from "
+#~ msgid "Image from"
+#~ msgstr "Зображення взяте з "
+
+#, fuzzy
+#~| msgid "GIF from "
+#~ msgid "Given from"
+#~ msgstr "Взято з "
+
+#~ msgid " liters."
+#~ msgstr " літрів."

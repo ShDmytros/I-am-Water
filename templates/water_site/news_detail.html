@@ -1,0 +1,48 @@
+{% extends 'water_site/base.html' %}
+{% load static i18n %}
+{% load static %}
+
+{% block container %}
+<link rel="stylesheet" href="{% static 'css/news_detail.css'%}">
+{% endblock container %}
+
+{% block content %}
+    <link rel="stylesheet" href="{% static 'css/new_detail.css'%}">
+    <main>
+        <a href="{% url 'news' %}" class="button-back">
+            <img src="{% static 'img/shop/back.png' %}">
+        </a>
+
+        <div class="main-information">
+            <img class="photo-of-news" src="{{ news.image.url }}" alt="">
+            <h1>{{ news.name }}</h1>
+            <div class="extra-info">
+                <p>
+                    {% if news.date.day < 10 %}
+                        0{{ news.date.day }} /
+                    {% else %}
+                        {{ news.date.day }} /
+                    {% endif %}
+                    {% if news.date.month < 10 %}
+                        0{{ news.date.month }} /
+                    {% else %}
+                        {{ news.date.month }} /
+                    {% endif %}
+                    {{ news.date.year }}
+                </p>
+
+                <p>
+                    {% if news.isGiven %}
+                        {% trans 'Information given from'%} {{ news.infoFrom }}
+                    {% else %}
+                        {% trans 'Information written by'%} {{ news.infoFrom }}.
+                    {% endif %}
+                    </p>            
+            </div>
+            <br>
+            <p class="descriptionOfNews">{{ news.description }}</p>
+        </div>
+    </main>
+</body>
+</html>
+{% endblock content %}

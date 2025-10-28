@@ -1,0 +1,15 @@
+{% extends 'water_site/base.html' %}
+{% load static i18n %}
+{% load static %}
+
+{% block container %}
+<link rel="stylesheet" href="{% static 'css/404.css'%}">
+{% endblock container %}
+
+{% block content %}
+<main>
+	<h1>Oooops, the page is not found. ERROR: 404</h1>
+	<h1>Уууупс, сторінка не знайдена. Помилка: 404</h1>	
+	<a class="url_on_main" href="{% url 'main' %}">Main page/Головна сторінка</a>
+</main>
+{% endblock content %}
